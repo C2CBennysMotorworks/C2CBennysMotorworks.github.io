@@ -1163,27 +1163,27 @@ input::-moz-focus-inner {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #6fc3df;
+				background-color: #FF0000;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-color: #FFFFFF;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				background-color: #000000;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-color: #FF0000;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				background-color: #FFFFFF;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #87c5a4;
+				background-color: #000000;
 			}
 
 		@media screen and (max-width: 1280px) {
