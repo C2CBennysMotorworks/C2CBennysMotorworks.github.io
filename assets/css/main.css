@@ -1175,7 +1175,7 @@ input::-moz-focus-inner {
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #000000;
+				background-color: #FF0000;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -1183,7 +1183,7 @@ input::-moz-focus-inner {
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #000000;
+				background-color: #FFFF00;
 			}
 
 		@media screen and (max-width: 1280px) {
