@@ -1047,6 +1047,27 @@ input::-moz-focus-inner {
 
 /* Tiles */
 
+		@keyframes neonGlow {
+			0% {
+			box-shadow: 0 0 5px rgba(255, 0, 255, 0.6),
+		            0 0 10px rgba(255, 0, 255, 0.6),
+		            0 0 20px rgba(255, 0, 255, 0.6);
+			transform: scale(1);
+			}
+			50% {
+			box-shadow: 0 0 15px rgba(255, 0, 255, 1),
+		            0 0 30px rgba(255, 0, 255, 1),
+		            0 0 45px rgba(255, 0, 255, 1);
+			transform: scale(1.05);
+			}
+			100% {
+			box-shadow: 0 0 5px rgba(255, 0, 255, 0.6),
+		            0 0 10px rgba(255, 0, 255, 0.6),
+		            0 0 20px rgba(255, 0, 255, 0.6);
+			transform: scale(1);
+			}
+		}
+
 	.tiles {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -1166,6 +1187,7 @@ input::-moz-focus-inner {
 
 			.tiles article:nth-child(1n):before {
 				background-color: #FF0000;
+				animation: neonGlow 3s infinite ease-in-out;
 			}
 
 		@media screen and (max-width: 1280px) {
