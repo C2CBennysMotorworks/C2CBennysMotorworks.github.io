@@ -1162,39 +1162,7 @@ input::-moz-focus-inner {
 				opacity: 0;
 			}
 
-			.tiles article:nth-child(9n + 1):before {
-				background-color: #FF0000;
-			}
-
-			.tiles article:nth-child(9n + 2):before {
-				background-color: #FFFF00;
-			}
-
-			.tiles article:nth-child(9n + 3):before {
-				background-color: #000000;
-			}
-
-			.tiles article:nth-child(9n + 4):before {
-				background-color: #FFFF00;
-			}
-
-			.tiles article:nth-child(9n + 5):before {
-				background-color: #222222;
-			}
-
-			.tiles article:nth-child(9n + 6):before {
-				background-color: #FF0000;
-			}
-
-			.tiles article:nth-child(9n + 7):before {
-				background-color: #FF0000;
-			}
-
-			.tiles article:nth-child(9n + 8):before {
-				background-color: #000000;
-			}
-
-			.tiles article:nth-child(9n + 0):before {
+			.tiles article:nth-child(n):before {
 				background-color: #FF0000;
 			}
 
