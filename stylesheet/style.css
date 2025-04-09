@@ -885,7 +885,7 @@ background-color: #fff;
     height: 8px;
     transform: skew(-35deg) translate(-50%, 0);
     transition: bottom .4s ease-in-out 0s, width .4s ease-in-out 0s;
-	 background-color: #d9eb3d;
+	 background-color: #ff0000;
 }
 
 .cms-index-index #nav #nav-home > a, #nav > li.active > a, .vertnav-top li.current > a {
